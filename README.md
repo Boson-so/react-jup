@@ -28,7 +28,7 @@ const connection = new Connection('https://solana-api.projectserum.com');
 const App = ({ children }) => {
   const wallet = useWallet() // user wallet
   return (
-    <JupiterProivder connection={connection} cluster="mainnet-beta" userPublicKey={wallet.publicKey}>
+    <JupiterProvider connection={connection} cluster="mainnet-beta" userPublicKey={wallet.publicKey}>
       {children}
     </JupiterProvider>
   )
