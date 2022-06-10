@@ -13,7 +13,7 @@
 1. Install the react package and Jupiter deps
 
 ```
-yarn add @bosonso/react-jup-ag
+yarn add @bosonso/react-jup
 yarn add @jup-ag/react-hook
 ```
 
