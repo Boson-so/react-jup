@@ -1,7 +1,11 @@
 {
   "name": "@boson-so/react-jup",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Boson-so/react-jup"
+  },
   "scripts": {
     "build": "npx rollup -c"
   },
