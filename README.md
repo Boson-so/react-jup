@@ -21,8 +21,7 @@
 1. Install the react package and Jupiter deps
 
 ```
-yarn add @bosonso/react-jup
-yarn add @jup-ag/react-hook
+yarn add @boson-so/react-jup @jup-ag/react-hook
 ```
 
 2. Wrap your app with JupiterProvider like so:
